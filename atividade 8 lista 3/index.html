@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venda de Camisetas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Venda de Camisetas</h1>
+
+    <label for="pequenas">Camisetas Pequenas (R$10):</label>
+    <input type="number" id="pequenas" placeholder="Quantidade" min="0">
+
+    <label for="medias">Camisetas Médias (R$12):</label>
+    <input type="number" id="medias" placeholder="Quantidade" min="0">
+
+    <label for="grandes">Camisetas Grandes (R$15):</label>
+    <input type="number" id="grandes" placeholder="Quantidade" min="0">
+
+    <button onclick="calcularTotal()">Calcular Total</button>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
