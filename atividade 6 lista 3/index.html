@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante Bem-Bão</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Restaurante Bem-Bão</h1>
+    <p>Preço por quilo: R$ 12,00</p>
+
+    <label for="peso">Peso do prato (kg):</label>
+    <input type="number" id="peso" placeholder="Ex: 0.750" step="0.001">
+
+    <button onclick="calcularValor()">Calcular Valor</button>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
