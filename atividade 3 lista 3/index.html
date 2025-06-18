@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Padaria Hotpão</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Padaria Hotpão - Cálculo de Vendas</h1>
+    <p>Digite a quantidade vendida:</p>
+
+    <label for="paes">Pães franceses (R$ 0,12):</label>
+    <input type="number" id="paes" placeholder="Ex: 100">
+
+    <label for="broas">Broas (R$ 1,50):</label>
+    <input type="number" id="broas" placeholder="Ex: 50">
+
+    <button onclick="calcularVenda()">Calcular</button>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
